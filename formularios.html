@@ -20,15 +20,15 @@
                 <form>
                     <div class="form-group">
                         <label for="nome">Nome</label>
-                        <input type="text" class="form-control" id="nome">
+                        <input type="text" class="form-control" id="nome" placeholder="Digite seu nome aqui">
                     </div>
                     <div class="form-group">
                         <label for="email">Email</label>
-                        <input type="text" class="form-control" id="email">
+                        <input type="text" class="form-control" id="email" placeholder="Digite seu E-mail aqui">
                     </div>
                     <div class="form-group">
                         <label for="senha">Senha</label>
-                        <input type="password" class="form-control" id="senha">
+                        <input type="password" class="form-control" id="senha" placeholder="Crie sua senha">
                     </div>
                     <div class="checkbox">
                         <label><input type="checkbox"></label> Aceito os termos de serviço
@@ -44,13 +44,16 @@
             </div>
             <div class="col-12 col-sm-4">
                 <h3>Logar</h3>
-                <form> 
+                <form>
                     <div class="form-group">
                         <label for="email">Email ou nome de usuário</label>
-                        <input type="text" class="form-control" id="email" placeholder="Digite seu email ou nome de usuário"
-                            required>
-                        <label for="email">Senha</label>
-                        <input type="password" class="form-control" id="email" placeholder="Digite sua senha" required>
+                        <input type="text" class="form-control" id="email"
+                            placeholder="Digite seu email ou nome de usuário" required>
+                            <div class="md-form md-outline">
+                                <i class="fas fa-key prefix" aria-hidden="true"></i>
+                        <label data-error="wrong" data-success="right" for="input-pwd\">Senha</label>
+                        <span toggle="#input-pwd" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                        <input type="password" class="form-control" id="email" placeholder="Digite sua senha" required></div>
                 </form>
             </div>
         </div>
