@@ -1,13 +1,3 @@
-.marcador {
-background-color: darkorchid;
-border: 1px solid rgb(0, 0, 0);
+body {
+    background-image: url(./img/bg.jpg);
 }
-
-.marcador2{
-    background-color: rgb(64, 248, 104);
-    border: 1px solid rgb(0, 0, 0);
-    }
-.page-header {
-padding-bottom: 9px;
-margin: 40px 0 20px;
-border-bottom: 1px solid #eee;}
