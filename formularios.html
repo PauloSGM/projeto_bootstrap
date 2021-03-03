@@ -28,15 +28,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aprendendo Bootstrap</title>
 
-    
+
 </head>
 
 <body>
-   
- 
-        <div class="container-fluid">
+    <nav class="navbar navbar-light bg-primary">
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Digite aqui sua pesquisa"
+                aria-label="Search">
+            <button class="btn btn-success my-2 my-sm-0" type="submit">Pesquisar</button>
+        </form>
+    </nav>
+
+    <div class="container-fluid col-md-auto">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-auto">
                 <h3>Cadastre-se</h3>
                 <form>
                     <div class="form-group">
@@ -61,10 +67,12 @@
                         <label><input type="radio" name="lang"></label> JAVA
                     </div>
                     <div><button type="submit" class="btn btn-primary">Enviar</button></div>
-                </div>
             </div>
-                </form>
-            </div>
+        </div>
+        </form>
+    </div>
+    <div class="container-fluid col-md-auto">
+        <div class="row">
             <div class="col-md-12">
                 <h3>Logar</h3>
                 <form>
@@ -72,14 +80,20 @@
                         <label for="email">Email ou nome de usuário</label>
                         <input type="text" class="form-control" id="email"
                             placeholder="Digite seu email ou nome de usuário" required>
-                            <div class="md-form md-outline">
-                                <i class="fas fa-key prefix" aria-hidden="true"></i>
-                        <label data-error="wrong" data-success="right" for="input-pwd\">Senha</label>
-                        <span toggle="#input-pwd" class="fa fa-fw fa-eye field-icon toggle-password"></span>
-                        <input type="password" class="form-control" id="email" placeholder="Digite sua senha" required></div>
-                </form>
+                        <div class="md-form md-outline">
+                            <i class="fas fa-key prefix" aria-hidden="true"></i>
+                            <label data-error="wrong" data-success="right" for="input-pwd\">Senha</label>
+                            <span toggle="#input-pwd" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                            <input type="password" class="form-control" id="email" placeholder="Digite sua senha"
+                                required>
+                        </div>
+                    </div> <input type="password" class="form-control" id="email" placeholder="Digite sua senha"
+                        required>
             </div>
+
+            </form>
         </div>
+    </div>
 
     </div>
     </div>
